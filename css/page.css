@@ -1,0 +1,83 @@
+@import url(../css/cdn.css);
+
+.page-notepad {
+    max-width: 1170px;
+    margin: auto;
+    padding: 80px 15px 116px;
+}
+
+.page_title {
+    font-size: 42px; /*razmer szrifta*/
+    font-weight: 400; /*rzirnost 400*/
+    color: #212121;
+    text-align: center; /* raspolorzenije teksta*/
+    margin-top: 80px; /*otstup ot kraja sekcii*/
+    margin-bottom: 34px;
+    font-family: Raleway;
+}
+
+.page-notepad_title__line {
+    border: 1px solid #e72424;
+    width: 64px;
+    height: 2px;
+    display: block;
+    margin: auto;
+}
+
+.page-notepad_title-text__text {
+    font-size: 19px; /*razmer szrifta*/
+    margin-top: 34px; /*otstup ot kraja sekcii*/
+    text-align: center; /* raspolorzenije teksta*/
+    color: #86878b;
+    font-family: Open Sans;
+}
+
+.page-notepad_blocs {
+    margin-top: 68px;
+    /*margin-left: -15px;*/
+    display: flex;
+    justify-content: space-between;
+}
+.page-notepad_blocs__item {
+    /*border: 1px solid black;*/
+    width: 350px;
+    margin: 0 15px;
+}
+.page-notepad_blocs__icon {
+    border: 1px solid #e72424;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-notepad_blocs__icon-img img {
+    display: block;
+    margin: auto;
+    /*margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 23px;*/
+}
+.page-notepad_blocs__title {
+}
+.page-notepad_title {
+    font-size: 29px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    color: #333333;
+    text-align: center; /* raspolorzenije teksta*/
+    font-family: Open Sans;
+    font-weight: bold;
+}
+.page-notepad_blocs__text {
+}
+.page-notepad_blocs__text p {
+    font-size: 14px;
+    color: black;
+    /*font-weight: 400;*/
+    text-align: center;
+    font-family: Open Sans;
+    padding-bottom: 20px;
+}
