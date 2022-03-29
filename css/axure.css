@@ -1,0 +1,61 @@
+.axure {
+    padding: 57px 0 116px 0;
+    height: 325px;
+    background: url(../img/background/town.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: brightness(55%);
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: 100;
+}
+.city {
+    max-width: 1170px;
+    padding: 0 15px;
+    display: block;
+    margin: auto;
+    /*top: 0;
+    left: 0;*/
+    width: 100%;
+    /* position: absolute;
+    z-index: 5;*/
+}
+
+.city-main-title {
+    font-size: 42px; /*razmer szrifta*/
+    font-weight: 400; /*rzirnost 400*/
+    color: #ffffff;
+    text-align: center; /* raspolorzenije teksta*/
+    margin: 0 0 34px; /*otstup ot kraja sekcii*/
+    font-family: "Raleway";
+    text-transform: uppercase;
+}
+.city-main-title::after {
+    content: "";
+    display: block;
+    background: #ffffff;
+    width: 64px;
+    height: 2px;
+    margin: auto;
+    margin-top: 34px;
+}
+
+.city-title-text {
+    font-size: 20px; /*razmer szrifta*/
+    margin-top: 34px; /*otstup ot kraja sekcii*/
+    text-align: center; /* raspolorzenije teksta*/
+    color: #ffffff;
+    font-family: "Open Sans";
+}
+
+.button {
+    display: block;
+    width: 135px;
+    margin: 57px auto 0;
+    font-size: 15px;
+    font-family: "Open Sans";
+    color: #ffffff;
+    cursor: pointer;
+}

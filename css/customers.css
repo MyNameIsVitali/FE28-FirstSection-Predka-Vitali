@@ -1,0 +1,106 @@
+.customers {
+    padding: 80px 0 116px 0;
+}
+.container-section {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.main-title {
+    font-size: 42px; /*razmer szrifta*/
+    font-weight: 400; /*rzirnost 400*/
+    color: #212121;
+    text-align: center; /* raspolorzenije teksta*/
+    margin: 0 0 34px; /*otstup ot kraja sekcii*/
+    font-family: "Raleway";
+    text-transform: uppercase;
+}
+.main-title::after {
+    content: "";
+    display: block;
+    background: #e72424;
+    width: 64px;
+    height: 2px;
+    margin: auto;
+    margin-top: 34px;
+}
+
+.title-customers-text {
+    font-size: 19px; /*razmer szrifta*/
+    margin-top: 34px; /*otstup ot kraja sekcii*/
+    text-align: center; /* raspolorzenije teksta*/
+    color: #86878b;
+    font-family: "Open Sans";
+}
+.opinion {
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 67px -15px 0;
+}
+.opinion-box {
+    /*border: 1px solid red;*/
+    width: 298px;
+    display: block;
+    margin: 0 15px;
+}
+
+.opinion-text {
+    font-size: 14px;
+    color: #86878b;
+    text-align: center;
+    font-family: "Open Sans";
+    background-color: #e2e2e2;
+    border-radius: 7px;
+    position: relative;
+}
+
+.opinion-text::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #e2e2e2;
+}
+
+.customer {
+    /* margin-top: 22px;*/
+    margin: 22px auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.face-img {
+    /*margin-left: 40px;*/
+}
+.face-img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.fake-customer {
+    /* margin: 0 auto;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.customer-name {
+    font-size: 20px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+.post {
+    font-size: 14px;
+    color: #86878b;
+    font-family: "Open Sans";
+}
