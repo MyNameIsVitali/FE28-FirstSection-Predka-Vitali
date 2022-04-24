@@ -1,0 +1,152 @@
+.meet {
+    padding: 100px 0 116px 0;
+    /*height: 325px;*/
+    background: url(../img/background/citycenter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.meet::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.stuff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 9;
+}
+
+.axit-t {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-between;
+    max-width: 544px;
+}
+
+.ax-title {
+    display: block;
+    font-size: 70px;
+    font-weight: 400; /*rzirnost 400*/
+    color: #ffffff;
+}
+.ax-title::after {
+    content: "IT";
+    color: #ec7979;
+    font-weight: 400; /*rzirnost 400*/
+    width: 100%;
+    height: 100%;
+}
+.ax-text {
+    display: block;
+    font-size: 36px;
+    font-weight: 400; /*rzirnost 400*/
+    color: #ffffff;
+    font-family: "Raleway";
+    margin-top: 42px;
+}
+
+.ax-text::after {
+    content: "";
+    display: block;
+    background: #ffffff;
+    width: 64px;
+    height: 2px;
+    margin-top: 32px;
+}
+
+.just-text {
+    display: block;
+    font-size: 16px;
+    font-weight: 300; /*rzirnost 400*/
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 39px;
+    max-width: 300px;
+    font-family: "Raleway";
+}
+
+.pushme {
+    border: 1px solid rgb(239, 237, 241);
+    display: block;
+    width: 135px;
+    /*margin: 57px auto 0;*/
+    font-size: 15px;
+    font-family: "Open Sans";
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    margin-top: 39px;
+}
+
+.free {
+    display: block;
+    width: 370px;
+    height: 370px;
+}
+
+.free-title {
+    /*display: block;*/
+    background-color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700; /*rzirnost 400*/
+    font-family: "Open Sans";
+    padding: 18px 0;
+    border-radius: 8px 8px 0 0;
+}
+
+.free-name {
+    color: #ec7979;
+}
+.right-section {
+    background-color: #ffffff;
+}
+
+.vhod {
+    display: flex;
+    flex-direction: column;
+    padding: 44px 59px 60px;
+    /*margin: auto;*/
+    /*align-self: center;*/
+    color: #bdbdbd;
+    width: 40%;
+}
+
+input[id="vhod"] {
+    /*display: block;*/
+    /*width: 478px;*/
+    width: 252px;
+    border: 1px solid #bdbdbd;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /*margin-bottom: 30px;*/
+    line-height: 16px;
+}
+
+.vhod label {
+    margin-top: 20px;
+    font-family: "Open Sans";
+}
+.Get {
+    border: 1px solid #ec7979;
+    background-color: #ec7979;
+    font-family: "Open Sans";
+    font-size: 15px;
+    padding: 20px 0;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 0 0 8px 8px;
+}

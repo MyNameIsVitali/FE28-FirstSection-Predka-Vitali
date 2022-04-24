@@ -5,6 +5,8 @@
 @import url(..css/cdn.css);
 @import url(../css/customers.css);
 @import url(../css/axure.css);
+@import url(../css/contact.css);
+@import url(../css/meet.css);
 
 * {
     margin: 0; /* Sbrasywajem nastroki otstupov dla sajta*/
@@ -34,4 +36,10 @@ html {
     font-weight: 200;
     color: rgb(10, 73, 49);
     text-align: center;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
 }

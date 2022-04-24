@@ -1,0 +1,89 @@
+.contact {
+    padding: 80px 0 116px 0;
+}
+
+.contact-title {
+    font-size: 42px; /*razmer szrifta*/
+    font-weight: 400; /*rzirnost 400*/
+    color: #212121;
+    text-align: center; /* raspolorzenije teksta*/
+    margin: 0 0 34px; /*otstup ot kraja sekcii*/
+    font-family: "Raleway";
+    text-transform: uppercase;
+}
+
+.contact-title::after {
+    content: "";
+    display: block;
+    background: #e72424;
+    width: 64px;
+    height: 2px;
+    margin: auto;
+    margin-top: 34px;
+}
+
+.title-contact-text {
+    font-size: 19px; /*razmer szrifta*/
+    margin-top: 34px; /*otstup ot kraja sekcii*/
+    text-align: center; /* raspolorzenije teksta*/
+    color: #86878b;
+    font-family: "Open Sans";
+}
+
+.NEP {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 95px -15px;
+    /*margin-top: 95px;*/
+    color: #bdbdbd;
+}
+
+.cotent-form {
+}
+.zajebalo-menia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    /*margin: 0 15px;*/
+}
+.eto-toze {
+    width: 40%;
+}
+
+input[id="NEP"] {
+    display: block;
+    /*width: 478px;*/
+    border: 1px solid #bdbdbd;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /*margin-bottom: 30px;*/
+    line-height: 30px;
+}
+
+textarea {
+    display: block;
+    padding: 20px;
+    width: 478px;
+    height: 216px;
+    resize: none;
+    border: 1px solid #bdbdbd;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.send {
+    border: none;
+    background-color: #ec7979;
+    display: block;
+    width: 166px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: "Open Sans";
+    color: #ffffff;
+    margin: 69px auto 0px;
+}
